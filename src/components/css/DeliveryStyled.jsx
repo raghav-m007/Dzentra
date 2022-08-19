@@ -8,6 +8,7 @@ export const DeliveryStyled = styled.div`
     border-radius: 12px;
     padding: 0 0.5rem;
     font-family: "Montserrat", sans-serif;
+
     .header {
       display: flex;
       align-items: center;
