@@ -1,6 +1,6 @@
 import React from "react";
 import { PieChart } from "react-minimal-pie-chart";
-import { OverviewStyled } from "../css/OverviewStyled";
+import { OverviewStyled } from "./OverviewStyled";
 
 const Overview = () => {
   return (

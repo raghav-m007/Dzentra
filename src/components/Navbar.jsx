@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
-import { IconStyled, NavbarStyled } from "../css/NavbarStyled";
+import { IconStyled, NavbarStyled } from "./NavbarStyled";
 
 const Navbar = (props) => {
   const data = [
@@ -40,7 +40,7 @@ const Navbar = (props) => {
             }}
           />
         )}
-        
+
       </div>
       <div className="menus">
         {data.map((item) => {

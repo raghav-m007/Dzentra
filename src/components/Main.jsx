@@ -1,5 +1,5 @@
 import React from "react";
-import { MainStyled } from "../css/MainStyled";
+import { MainStyled } from "./MainStyled";
 import Delivery from "./Delivery";
 import Navbar from "./Navbar";
 import Orders from "./Orders";

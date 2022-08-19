@@ -1,5 +1,5 @@
 import React from "react";
-import { DivStyled, IconStyled, OrdersStyled } from "../css/OrdersStyled";
+import { DivStyled, IconStyled, OrdersStyled } from "./OrdersStyled";
 
 const Orders = () => {
   const data = [
@@ -23,7 +23,7 @@ const Orders = () => {
     },
     {
       title: "DELIVERED ORDERS",
-      quantity: 347,
+      quantity: 345,
       icon: "charm:tick",
       bgcolor: "#0782fd",
     },

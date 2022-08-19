@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import { DeliveryStyled, CardStyled, DivStyled } from "../css/DeliveryStyled";
+import { DeliveryStyled, CardStyled, DivStyled } from "./DeliveryStyled";
 
 const Delivery = () => {
   const data = [
@@ -31,25 +31,6 @@ const Delivery = () => {
       bg: "#ebe7ef",
       color: "#8891a1",
       icons: ["noto:running-shoe", "twemoji:billed-cap"],
-    },
-    {
-      name: "Customer 2",
-      orderId: "ORD-0952",
-      bg: "#ebe7ef",
-      color: "#267bc1",
-      icons: ["noto:coat", "noto:coat", "twemoji:billed-cap"],
-    },
-    {
-      name: "Walk In Customer",
-      orderId: "ORD-0953",
-      bg: "#ebe7ef",
-      color: "#267bc1",
-      icons: [
-        "noto:running-shoe",
-        "emojione-monotone:t-shirt",
-        "emojione-monotone:t-shirt",
-        "emojione-monotone:t-shirt",
-      ],
     },
   ];
 

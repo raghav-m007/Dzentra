@@ -1,6 +1,6 @@
 import React from "react";
-import { AppStyled } from "./components/css/AppStyled";
-import Main from "./components/layout/Main";
+import { AppStyled } from "./components/AppStyled";
+import Main from "./components/Main";
 
 const App = () => {
   return (

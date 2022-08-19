@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
 import React from "react";
-import { IconStyled } from "../css/MainStyled";
+import { IconStyled } from "./MainStyled";
 
 const Sidebar = () => {
   const data = [
